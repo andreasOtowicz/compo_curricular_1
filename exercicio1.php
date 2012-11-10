@@ -33,16 +33,14 @@
 	</div>
 	<h1>
 	
-	OLA MUNDO
-	
-	</h1>
+		
 	
 	<div id="conteudo">
 	<?php
-	echo $nome1." , ".$nome2." , ".$nome3." , ".$sexo1." , ".$sexo2." , ". $sexo3;
+			echo $nome1." , ".$nome2." , ".$nome3." , ".$sexo1." , ".$sexo2." , ". $sexo3;
 	
 	?>
-	
+	</h1>
 	
 	</div>
 	
