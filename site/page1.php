@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <title>Trabalho pagina</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descrição do site trabalho Pagina">
+    <meta name="description" content="Descri? do site trabalho Pagina">
     <meta name="author" content="Andreas Otowicz - andreas_otowicz00@hotmail.com">
 
     <!-- Le styles -->

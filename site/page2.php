@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <title>Trabalho pagina</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descrição do site trabalho Pagina">
+    <meta name="description" content="Descri? do site trabalho Pagina">
     <meta name="author" content="Andreas Otowicz - andreas_otowicz00@hotmail.com">
 
     <!-- Le styles -->
@@ -68,14 +68,14 @@
 	   <div class="span9">
           <div class="hero-unit">
             <h1>Page 2</h1>
-          <p> Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. 
-		  <p>Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. 
+          <p> Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra l? depois divoltis porris, paradis. 
+		  <p>Paisis, filhis, espiritis santis. M?aiz elementum girarzis, nisi eros vermeio, in elementis m?ra quem ?mistosis quis leo. 
 		  <p>Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. 
 		  <p>Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
 
-			<p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. 
+			<p>Suco de cevadiss, ?m leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no m?cursus quis, vehicula ac nisi. 
 			<p>Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. 
-			<p>Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. 
+			<p>Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet m?el lectus scelerisque interdum cursus velit auctor. 
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.
 
  
