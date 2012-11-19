@@ -34,7 +34,7 @@
       <div class="navbar-inner">
         <div class="container-fluid">
           
-          <a class="brand" href="#">Minha Pagina 2</a>
+          <a class="brand" href="#">Meu Site</a>
           <div class="nav-collapse collapse">
             
             <ul class="nav">
