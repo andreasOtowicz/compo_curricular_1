@@ -148,79 +148,62 @@
 	?>
 	
 	
+	<fieldset>
+			<legend>Formulario de cadastro</legend>
 	
 	
-	
-	<form action="" method="POST">
+	<form action ="exercicioos.php" method ="POST">
 	<br>
-	<input type="hidden" name= "escondido" value="valor do escondido"/> 
-	<br>
-	Campo 1: <input type="text" name="campo1"/><br>
-	<br>
-	
-	Password: <input name="senha" type="password" maxlength=6 /><br>
-	<br>
-	
-	Nome: <input type="text" name="nome"/><br> 
-	Email: <input type="text" name="email"/><br><br> 
-	Mensagem: <textarea name=mensagem cols=8 rows=3></textarea><br>
-	<br>
-	<input type="submit"/><br>
-	<br>
+				<input type="hidden" name= "escondido" value="valor do escondido"/> 
+				<br>
+				Campo 1: <input type="text" name="campo1"/><br>
+				<br>
+				
+				Password: <input type="password" name="senha"  maxlength=6 /><br>
+				<br>
+				
+				Nome: <input type="text" name="nome"/><br> 
+				
+				Email: <input type="text" name="email" size="20" value=" " />
+					<?php echo @$_REQUEST["email"]; ?> 
+					
+					<br>
 
-	<B>Escolha os numeros de sua preferência:</B><br> 
-	<input type="checkbox" name="numeros[]" value=10/> 10<br>
-	<input type="checkbox" name="numeros[]" value=10/> 20<br>
-	<input type="checkbox" name="numeros[]" value=10/> 30<br>
-	<input type="checkbox" name="numeros[]" value=10/> 40<br>
-	<br>
-	<B>Qual seu sistema?</B><br> 
-	<br><input type="radio" name="sistema" value="Windows 98"/> Win 98<br> 
-	<br><input type="radio" name="sistema" value="Windows 98"/> Linux<br>
-	<br><input type="radio" name="sistema" value="Windows 98"/> Mac<br> 
-	<br>
-	
-	<B>Qual seu processador?</B><br> 
-	<select name="processador"> <option value="Pentium">Pentium</option><br> 
-	<option value="AMD">AMD</option><br>
-	<option value="Celeron">Celeron</option><br> 
-	</select><br>
-	<br>
-	<br>
-	<input type="submit" value="OK"/> 
-	
-	</form>
+				Mensagem: <textarea name="mensagem" cols=8 rows=3></textarea><br>
+				<br>
+				
+				<br>
 
+				Escolha os numeros de sua preferência:<br> 
+				<input type="checkbox" name="numeros[]" value="10"/> 10<br>
+				<input type="checkbox" name="numeros[]" value="20"/> 20<br>
+				<input type="checkbox" name="numeros[]" value="30"/> 30<br>
+				<input type="checkbox" name="numeros[]" value="40"/> 40<br>
+				<br>
+				Qual seu sistema?<br> 
+				<br><input type="radio" name="sistema" value="Windows 98"/> Win 98<br> 
+				<br><input type="radio" name="sistema" value="Windows 98"/> Linux<br>
+				<br><input type="radio" name="sistema" value="Windows 98"/> Mac<br> 
+				<br>
+				
+				<B>Qual seu processador?</B><br> 
+				<select name="processador"> <option value="Pentium">Pentium</option><br> 
+				<option value="AMD">AMD</option><br>
+				<option value="Celeron">Celeron</option><br> 
+				</select><br>
+				<br>
+				<br>
+				<button class="btn btn-large btn-primary">Botão grande</button>
+	
+	</fieldset>
 	
 	
-	<?php
-	
-	$hidden = $_POST["hidden"];
-	
-	echo "Campo Hidden: " .$hidden;
-	
-	echo "O valor de CAMPO 1 é: ".$_POST["campo1"];
-	
-	echo $senha = $_POST['password'];
+        
+			</form>
 
 	
 	
-	echo "Olá " . $_POST["nome"] . " (email: " . $_POST["email"] . ")<br><br>"; 
-	echo "Sua mensagem: " . $_POST["mensagem"]; 
-
-
 	
-	if(isset($_POST["numeros"])) 
-	{ echo "Os números de sua preferência são:<BR>";
-	foreach($_POST["numeros"] as $numero) 
-	{ echo "- " . $numero . "<BR>"; } 
-	} else { echo "Você não escolheu número preferido!<br>"; }
-
-	echo "Seu sistema operacional é: " .$_POST["sistema"];
-
-	echo "Seu processador é: " . $_POST["processador"] . "<BR>";
-
-	?>
 	
 	</body>
 	
