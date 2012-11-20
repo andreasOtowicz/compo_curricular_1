@@ -581,9 +581,12 @@
 
 					<p>f) de float para string em formato de dinheiro: R$ 23,45</p>
 					<?php
-						$number = (string)1234.56;
+					
+						$number = (string)23.45;
+						
 						setlocale(LC_MONETARY, "en_US");
-						echo money_format("%i", $number);  
+						
+						echo money_format("%i",$number). "\n";  
 					?>
 
 	
