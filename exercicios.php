@@ -35,10 +35,10 @@
 	<h1>
 	
 		
-	
-	<div id="conteudo">
+		<div id="conteudo">
 	
 	<?php
+	//exercicio 1
 	
 			echo $nome1." , ".$nome2." , ".$nome3." , ".$sexo1." , ".$sexo2." , ". $sexo3 ;	
 	
@@ -51,7 +51,7 @@
 	
 	
 	<?php
-		
+	//exercicio 2
 		
 		echo $nome1." , ".$nome2." , ".$nome3." , ".$sexo1." , ".$sexo2." , ". $sexo3 ;
 		
@@ -67,6 +67,8 @@
 		?>
 		
 	<?php
+	
+	//exercicio 3
 		$qtd = 4;
 	switch ($qtd) {
 		case 0:
@@ -89,6 +91,8 @@
 	
 	<?php
 	
+	//exercicio 4-a.
+	
 	for($i=0; $i<25; $i++){
 
 		echo "<p>Lactobacilos vivos também possuem sentimentos</p>";
@@ -97,6 +101,8 @@
 	?>
 	
 	<?php
+	
+	//exercicio 4-b.
 	$i = 0;
 	$num = 25;
 	
@@ -110,6 +116,8 @@
 	
 	<p>
 		<?php
+		
+		//exercicio 4-c.
 	
 		$num1 = 3;
 		$num2= 8;
@@ -127,6 +135,8 @@
 	
 	<?php
 	
+	//exercicio 4-d.
+	
 	$nume1 = 3;
 	$nume2 = 5;
 	$soma = 0;
@@ -141,12 +151,76 @@
 	
 	<?php
 	
-	$imprime = "Andreas Otowicz";
+	//exercicio 5
 	
-	echo "<p>$imprime</p>";
+		$imprime = "Andreas Otowicz";
+	
+		echo "<p>$imprime</p>";
 	
 	?>
 	
+	<?php
+		//exercicio 7
+	
+			//de string para integer
+			
+  					$str = "10";
+   					$num = (int)$str;
+			
+   					
+
+
+   					//de string para array
+   					
+					// Example 1
+					$pizza  = "piece1 piece2 piece3 piece4 piece5 piece6";
+					$pieces = explode(" ", $pizza);
+					echo $pieces[0]."<br>"; // piece1
+					echo $pieces[1]."<br>"; // piece2
+
+					// Example 2
+					$data = "foo:*:1023:1000::/home/foo:/bin/sh";
+					list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
+					echo $user."<br>"; 
+					echo $pass."<br>";  
+
+					
+				
+
+				//de string para array
+					
+				$array = array("lastname", "email", "phone");
+				$comma_separated = implode(",", $array);
+
+				echo $comma_separated."<br>";
+
+				// Empty string when using an empty array:
+				var_dump(implode("hello", array()))."<br>";
+
+				
+				
+
+				//de integer para float
+
+				
+			    $f = 0.03;
+			    $b = (1 - 0.97);
+
+			    var_dump($f == $b)."<br>"; //result FALSE
+				
+
+				
+			    $f = (float)(string)0.03;
+			    $b = (float)(string)(1 - 0.97);
+
+			    var_dump($f == $b)."<br>"; //result TRUE
+			
+	
+	
+	
+	?>
+	
+	<!-- Exercicio 9 e 10 --> 
 	
 	<fieldset>
 			<legend>Formulario de cadastro</legend>
