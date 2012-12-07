@@ -7,7 +7,7 @@
 
 	<p>
 		<?php echo $this->Html->link("Novo Item", array('controller' => 'posts', 'action' => 'add'),
-													array('class' => 'btn btn-sucess')); ?>
+													array('class' => 'btn btn-success')); ?>
 
 	</p>
 <table>
@@ -32,9 +32,9 @@
  		<td><?php echo $post['Post']['modified']; ?></td>
 		<td>
 
-		<!-- <a href="/posts/view/id">Visualizar</a> -->
+	
 
-		<!-- <?php echo $this->Html->link("Visualizar", array('controller' => 'posts', 'action' => 'view', $post["Post"]["id"])); ?> -->
+		
 		<?php echo $this->Html->link("Visulizar", array('controller' => 'posts','action' => 'edit', $post["Post"]["id"]),
 					array('class'=>'btn')); ?>
 		<?php echo $this->Html->link("Editar", array('controller' => 'posts','action' => 'edit', $post["Post"]["id"]),
