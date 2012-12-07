@@ -34,7 +34,17 @@
 
 		<!-- <a href="/posts/view/id">Visualizar</a> -->
 
-		<?php echo $this->Html->link("Visualizar", array('controller' => 'posts', 'action' => 'view', $post["Post"]["id"])); ?> 
+		<!-- <?php echo $this->Html->link("Visualizar", array('controller' => 'posts', 'action' => 'view', $post["Post"]["id"])); ?> -->
+		<?php echo $this->Html->link("Visulizar", array('controller' => 'posts','action' => 'edit', $post["Post"]["id"]),
+					array('class'=>'btn')); ?>
+		<?php echo $this->Html->link("Editar", array('controller' => 'posts','action' => 'edit', $post["Post"]["id"]),
+					array('class'=>'btn btn-info btn-small')); ?>
+		<?php echo $this->Html->link("Deletar", array('controller' => 'posts','action' => 'edit', $post["Post"]["id"]),
+					array('class'=>'btn btn-danger')); ?>
+
+
+
+		
 
 
 		</td>	
