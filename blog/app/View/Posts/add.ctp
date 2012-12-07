@@ -10,4 +10,4 @@
 	echo $this->Form->input('body', array('rows' => '3'));
 
 	#fechando o formulário  e gerando o botão submit
-	echo $this->Form->end['Enviar']
+	echo $this->Form->end['Enviar'];
